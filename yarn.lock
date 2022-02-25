@@ -1455,7 +1455,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
+"@babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.17.0, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
   version: 7.17.2
   resolution: "@babel/runtime@npm:7.17.2"
   dependencies:
@@ -1939,6 +1939,17 @@ __metadata:
     webpack-plugin-serve:
       optional: true
   checksum: 36a7b0c63f0aabde856a2b43f3f3bfa7919920afa67b4fbcf7d4980b286c7c11e34ada13654d81bf30c3d3e2c12a5b9eef6c15e21a200003b8030809d3ddd6c6
+  languageName: node
+  linkType: hard
+
+"@redux-devtools/extension@npm:^3.2.2":
+  version: 3.2.2
+  resolution: "@redux-devtools/extension@npm:3.2.2"
+  dependencies:
+    "@babel/runtime": ^7.17.0
+  peerDependencies:
+    redux: ^3.1.0 || ^4.0.0
+  checksum: f7668cc72f4d570e9f63a3581185047b5eab1564dfecf0bcea7974d9bc08fe8f87ea3acd658cd1db160f0a82c9e879a49b3cd1c193f6e0d8c1490af9975c20e5
   languageName: node
   linkType: hard
 
@@ -4619,6 +4630,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "counter@workspace:."
   dependencies:
+    "@redux-devtools/extension": ^3.2.2
     prop-types: ^15.7.2
     react: ^17.0.2
     react-dom: ^17.0.2
